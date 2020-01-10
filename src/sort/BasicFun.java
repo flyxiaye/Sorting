@@ -1,6 +1,7 @@
 package sort;
 
 import javax.swing.*;
+import java.util.Comparator;
 
 public class BasicFun {
     public static boolean less(Comparable a, Comparable b) {
@@ -28,6 +29,16 @@ public class BasicFun {
     public static void show(Comparable[] a){
         for (int i = 0; i < a.length; i++)
             System.out.print(a + " ");
+    }
+
+    public static boolean less(Comparator c, Object v, Object w){
+        return c.compare(v, w) < 0;
+    }
+
+    public static void exch(Object[] a, int i, int j){
+        Object t = a[i];
+        a[i] = a[j];
+        a[j] = t;
     }
 
 }

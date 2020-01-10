@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b6b8f2f-8685-495d-b14a-76df82edf4bd" name="Default Changelist" comment="" />
+    <list default="true" id="3b6b8f2f-8685-495d-b14a-76df82edf4bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/BasicFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/BasicFun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Insertion.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +34,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TWGPt1RUHXBqs3NM1jVvnhBIUY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
@@ -93,7 +108,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.BubbleSortThread" />
+        <item itemvalue="Application.SortCompare" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BubbleSortThread" />
         <item itemvalue="Application.SortCompare" />
       </list>
     </recent_temporary>
@@ -117,11 +134,32 @@
       <workItem from="1575900036729" duration="46000" />
       <workItem from="1577275881166" duration="1515000" />
       <workItem from="1577281630581" duration="930000" />
-      <workItem from="1578239698953" duration="1069000" />
+      <workItem from="1578239698953" duration="3998000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
