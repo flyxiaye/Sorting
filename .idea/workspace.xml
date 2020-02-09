@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b6b8f2f-8685-495d-b14a-76df82edf4bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/search/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/search/RedBlackBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,7 +133,7 @@
       <workItem from="1577275881166" duration="1515000" />
       <workItem from="1577281630581" duration="930000" />
       <workItem from="1578239698953" duration="3998000" />
-      <workItem from="1579936172740" duration="4528000" />
+      <workItem from="1579936172740" duration="8037000" />
     </task>
     <servers />
   </component>
