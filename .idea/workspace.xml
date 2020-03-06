@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b6b8f2f-8685-495d-b14a-76df82edf4bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/search/RedBlackBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuilderModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecorateModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BubbleSortThread">
+  <component name="RunManager" selected="Application.BuilderModule">
     <configuration name="BubbleSortThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.BubbleSortThread" />
       <module name="Sorting" />
@@ -71,6 +72,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuilderModule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BuilderModule" />
+      <module name="Sorting" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecorateModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DecorateModel" />
+      <module name="Sorting" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,14 +117,16 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.SortCompare" />
       <item itemvalue="Application.BubbleSortThread" />
+      <item itemvalue="Application.DecorateModel" />
+      <item itemvalue="Application.BuilderModule" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuilderModule" />
+        <item itemvalue="Application.DecorateModel" />
         <item itemvalue="Application.BubbleSortThread" />
         <item itemvalue="Application.SortCompare" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BubbleSortThread" />
-        <item itemvalue="Application.SortCompare" />
       </list>
     </recent_temporary>
   </component>
@@ -133,8 +150,18 @@
       <workItem from="1577275881166" duration="1515000" />
       <workItem from="1577281630581" duration="930000" />
       <workItem from="1578239698953" duration="3998000" />
-      <workItem from="1579936172740" duration="8037000" />
+      <workItem from="1579936172740" duration="9585000" />
+      <workItem from="1582254453723" duration="916000" />
+      <workItem from="1583502395943" duration="598000" />
     </task>
+    <task id="LOCAL-00001" summary="add red_black_BST">
+      <created>1581241710835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581241710835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,5 +189,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add red_black_BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="add red_black_BST" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DecorateModel.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
