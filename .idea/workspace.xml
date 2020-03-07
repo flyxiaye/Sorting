@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b6b8f2f-8685-495d-b14a-76df82edf4bd" name="Default Changelist" comment="建造者模式">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserveModule.java" afterDir="false" />
+    <list default="true" id="3b6b8f2f-8685-495d-b14a-76df82edf4bd" name="Default Changelist" comment="观察者模式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObserveModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObserveModule.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +148,7 @@
       <workItem from="1578239698953" duration="3998000" />
       <workItem from="1579936172740" duration="9585000" />
       <workItem from="1582254453723" duration="916000" />
-      <workItem from="1583502395943" duration="1718000" />
+      <workItem from="1583502395943" duration="2659000" />
     </task>
     <task id="LOCAL-00001" summary="add red_black_BST">
       <created>1581241710835</created>
@@ -165,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583503142292</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="观察者模式">
+      <created>1583579823048</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583579823048</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +203,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add red_black_BST" />
     <MESSAGE value="建造者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="建造者模式" />
+    <MESSAGE value="观察者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="观察者模式" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

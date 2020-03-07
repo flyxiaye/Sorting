@@ -1,5 +1,5 @@
 //观察者模式
-
+//改进版 委托 未完成
 import java.util.LinkedList;
 import java.util.List;
 
@@ -7,9 +7,9 @@ public class ObserveModule {
     public static void main(String[] args) {
         ConcreteSubject s = new ConcreteSubject();
 
-        s.attach(new ConceteObserver(s, "X"));
-        s.attach(new ConceteObserver(s, "Y"));
-        s.attach(new ConceteObserver(s, "Z"));
+        s.attach(new ConcreteObserver(s, "X"));
+        s.attach(new ConcreteObserver(s, "Y"));
+        s.attach(new ConcreteObserver(s, "Z"));
 
         s.setSubjectState("ABC");
         s.notify_observer();
@@ -35,8 +35,8 @@ abstract class Subject {
     }
 }
 
-abstract class Observer {
-    public abstract void update();
+interface Observer {
+    void update();
 }
 
 class ConcreteSubject extends Subject {
@@ -51,13 +51,13 @@ class ConcreteSubject extends Subject {
     }
 }
 
-class ConceteObserver extends Observer {
+class ConcreteObserver implements Observer {
 
     private String name;
     private String observerState;
     private ConcreteSubject subject;
 
-    public ConceteObserver(ConcreteSubject subject, String name) {
+    public ConcreteObserver(ConcreteSubject subject, String name) {
         this.subject = subject;
         this.name = name;
     }
